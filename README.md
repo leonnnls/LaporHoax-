@@ -1,11 +1,11 @@
 PROJECT AKHIR - PEMROGRAMAN WEB
 
 LaporHoax - Kelompok 6 
+
 PROGRESS : 
 CODE : Leon 60%, Senina 15%, Syarif 25%
 
-User : /user/public/home.php
-Admin : /admin/login.php 
+User : /user/public/home.php | Admin : /admin/login.php 
 ________________________________________
 Superadmin
 Email  : admin@gmail.com
