@@ -13,7 +13,7 @@ Laporan    : Leon
 ![image](https://github.com/leonnnls/LaporHoax-/assets/150576749/0b1827a6-b30e-4611-b383-ebbaaee13795)
 ![image](https://github.com/leonnnls/LaporHoax-/assets/150576749/9d9a209a-dbe7-475f-a6c9-47b4954dfe1b)
 
-FlowChart : 
+
 ![image](https://github.com/leonnnls/LaporHoax-/assets/150576749/70bfe044-a7e6-41ac-a4c0-92564a149031)
 ![image](https://github.com/leonnnls/LaporHoax-/assets/150576749/70617c3d-f292-41af-a18b-332006698661)
 
