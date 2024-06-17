@@ -2,12 +2,7 @@ PROJECT AKHIR - PEMROGRAMAN WEB
 
 LaporHoax - Kelompok 6 
 PROGRESS : 
-CODE : - Leon  50%
-       - Senina 15%
-       - Syarif 35%
-
-PowerPoint : Senina 
-Laporan    : Leon
+CODE : Leon 60%, Senina 15%, Syarif 25%
 
 ![image](https://github.com/leonnnls/LaporHoax-/assets/150576749/93509ec7-056a-44cd-a738-2743bcbb758c)
 ![image](https://github.com/leonnnls/LaporHoax-/assets/150576749/0b1827a6-b30e-4611-b383-ebbaaee13795)
