@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Kontak | LaporHoax!</title>
+    <link rel="shortcut icon" href="images/kominfo.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- font Awesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Main Styles CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+        <div class="shadow">
+            <nav class="navbar navbar-fixed navbar-inverse form-shadow">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="home">
+                            <img alt="Brand" src="images/kominfo.png">
+                        </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="home">HOME</a></li>
+                            <li><a href="lapor">LAPOR</a></li>
+                            <li><a href="lihat">LIHAT PENGADUAN</a></li>
+                            <li><a href="faq">FAQ</a></li>
+                            <li class="active"><a href="">KONTAK</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+
+            <!-- content -->
+            <div class="main-content">
+                <h3>Alamat Pengaduan</h3>
+                <hr/>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="map" class="card-shadow-2" style="width:100%;height:300px"></div>
+                            <script>
+                            function myMap() {
+                                  var mapCanvas = document.getElementById("map");
+                                  var myCenter = new google.maps.LatLng(-7.311070718214689,112.72902228319904);
+                                  var mapOptions = {center: myCenter, zoom: 18};
+                                  var map = new google.maps.Map(mapCanvas,mapOptions);
+                                  var marker = new google.maps.Marker({
+                                    position: myCenter,
+                                    animation: google.maps.Animation.BOUNCE
+                                  });
+                                  marker.setMap(map);
+                            }
+                            </script>
+                            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXyK9sf3rI0EKVupuALaOAzq1NKlUES98&callback=myMap"></script>
+                    </div>
+
+                    <div class="col-md-6"></div>
+                </div>
+                <hr>
+                <h4>Telkom University</h4>
+                <p>Jalan Ketintang No.156</p>
+                <p>Surabaya, Jawa Timur</p>
+                <hr>
+                <h4>Contact Info:</h4>
+                <p>0811 3278 005</p>
+                <p>&nbsp;</p>
+
+                <!-- link to top -->
+                <a id="top" href="#" onclick="topFunction()">
+                    <i class="fa fa-arrow-circle-up"></i>
+                </a>
+                <script>
+                    // When the user scrolls down 100px from the top of the document, show the button
+                    window.onscroll = function() {scrollFunction()};
+                    function scrollFunction() {
+                        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                            document.getElementById("top").style.display = "block";
+                        } else {
+                            document.getElementById("top").style.display = "none";
+                        }
+                    }
+
+                    // When the user clicks on the button, scroll to the top of the document
+                    function topFunction() {
+                        document.body.scrollTop = 0;
+                        document.documentElement.scrollTop = 0;
+                    }
+                </script>
+                <!-- link to top -->
+
+
+            <!-- end main-content -->
+            </div>
+
+            <hr>
+
+                <div class="copyright py-4 text-center text-white">
+                    <small>KELOMPOK - 7</small>
+                </div>
+                <!-- shadow -->
+        </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="js/bootstrap.js"></script>
+
+</body>
+</html>
